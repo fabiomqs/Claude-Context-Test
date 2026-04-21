@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "Read(//c/Users/fabio/workspace/Claude-Context-Test/habit-dashboard/**)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "mcp__plugin_context-mode_context-mode__ctx_search"
+    ]
+  },
+  "enabledPlugins": {
+    "context-mode@context-mode": true
+  }
+}

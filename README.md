@@ -72,8 +72,22 @@ Base de comparação sem utilizar nenhum plugin
 - Conclusão:
   - Reduziu bastante o consumo de tokens.
 
-### caveman + context-mode
+### caveman + context-mode (caveman_context_mode)
 Testando se funcionam em conjunto e se melhora os resultados
+
+- Notas:
+  - executando sem erros, a principío não parece ter incompatibilidade entre os plugins
+  - gerou novamente em ordem errada os componentes, pedi pra corrigir
+  - /init executado em plan mode
+
+![Cota inicial](img/cota-cave-ctx-mode-inicio.png)
+![Cota fina](img/cota-cave-ctx-mode-fim.png)
+
+![Print 1](img/cave-ctx-mode-1.png)
+![Print 2](img/cave-ctx-mode-2.png)
+
+- Conclusão:
+  - Utilizar o caveman em conjunto com o context_mode não fez diferença.
 
 ## Prompts
 
