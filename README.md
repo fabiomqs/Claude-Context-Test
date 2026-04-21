@@ -2,7 +2,7 @@
 
 Testando 2 plugins para redução de uso de token
 Plugin 1: https://github.com/mksglu/context-mode
-Plugin 2: 
+Plugin 2: https://github.com/JuliusBrussee/caveman
 
 ## Projetos
 - Serão utilizados, na medida do possível, os mesmo prompts em todos os projetos
@@ -51,7 +51,29 @@ Utilizando o Plugin 1
 
 - Conclusão:
   - A princípio parece ter reduzido o consumo de tokens, apesar de mão ter executado o planejamento em dois prompts
-  
+
+### caveman
+Utilizando o Plugin 1
+modo: /caveman full
+
+Base de comparação sem utilizar nenhum plugin
+
+![Cota inicial](img/cota-caveman-inicio.png)
+![Cota fina](img/cota-caveman-fim.png)
+
+![Print 1](img/caveman_1.png)
+![Print 2](img/caveman_2.png)
+
+- Notas:
+  - os componentes ficaram fora de ordem, foi solicitado o ajuste
+  - /init executado em plan mode
+  - sem mais problemas ou correções de erros
+
+- Conclusão:
+  - Reduziu bastante o consumo de tokens.
+
+### caveman + context-mode
+Testando se funcionam em conjunto e se melhora os resultados
 
 ## Prompts
 
@@ -92,3 +114,5 @@ Crie um componente Navbar.tsx com navegação entre as páginas do projeto:
 - Navbar fixa no topo, estilo glassmorphims combinado com design atual
 - Highlight no link da página ativa
 - Adicione a navbar no layout.tsx para aparecer em todas as páginas
+
+
