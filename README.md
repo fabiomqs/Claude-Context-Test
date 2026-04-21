@@ -1,19 +1,31 @@
 # Claude-Context-Test
 
 Testando 2 plugins para redução de uso de token
+Plugin 1: https://github.com/mksglu/context-mode
+Plugin 2: 
 
 ## Projetos
 - Serão utilizados, na medida do possível, os mesmo prompts em todos os projetos
+- permiti ao claude code executar comandos locais.
 - Será feito para cada prompt uma execução em modo planejamento e posterior execução
 - Modelo: Sonnet 4.6 em esforço médio
+
 ### Vanilla
 Base de comparação sem utilizar nenhum plugin
 Cota inicial:
-Cota final
+Cota final:
 - Notas:
+  - 1 erro corrigido no prompt 2
+  - /init executado em plan mode
+  - sem mais problemas ou correções de erros
 
-
-
+### context-mode
+Utilizando o Plugin 1
+Cota inicial:
+Cota final:
+- Notas:
+  
+  
 
 ## Prompts
 
@@ -37,12 +49,16 @@ Crie uma página /stats com estatísticas dos hábitos:
 
 ### Prompt 3
 
+/init
+
+### Prompt 4
+
 Crie testes com Vitest para os componentes principais?
 - Testar adicionar/remover hábitos
 - Testar marcar Hábito como feito
 - Testar cálculo de streak
 
-### Prompt 4
+### Prompt 5
 
 Crie um componente Navbar.tsx com navegação entre as páginas do projeto:
 - Link para Home (/) - ícone de casa + "Hábitos"
