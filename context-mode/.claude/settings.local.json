@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_stats",
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "Bash(npx create-next-app@latest habit-tracker --typescript --tailwind --app --no-src-dir --no-import-alias --yes)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "mcp__plugin_context-mode_context-mode__ctx_execute_file"
+    ]
+  },
+  "enabledPlugins": {
+    "context-mode@context-mode": true
+  }
+}

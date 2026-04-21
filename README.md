@@ -12,8 +12,13 @@ Plugin 2:
 
 ### Vanilla
 Base de comparação sem utilizar nenhum plugin
-Cota inicial:
-Cota final:
+
+![Cota inicial](img/cota-vanilla-inicio.png)
+![Cota fina](img/cota-vanilla-fim.png)
+
+![Print 1](img/vanilla1.png)
+![Print 2](img/vanilla2.png)
+
 - Notas:
   - 1 erro corrigido no prompt 2
   - /init executado em plan mode
@@ -21,10 +26,31 @@ Cota final:
 
 ### context-mode
 Utilizando o Plugin 1
-Cota inicial:
-Cota final:
+
+![Cota inicial](img/cota-context-mode-inicial.png)
+![Cota fina](img/cota-context-mode-fim.png)
+
+![Print 1](img/context-mode-1.png)
+![Print 2](img/context-mode-2.png)
+
 - Notas:
-  
+  - o design criado foi diferente, provavelment devido a falta de requisitos mais claros.
+  - ctx stats prompt 1: 22,1% de redução
+  ![ctx stats 1](img/context-mode-ctx-stats-1.png)
+  - por erro meu o prompt 2 foi executado sem a etapa de planejamento, mas gerado sem erros
+  - ctx stats prompt 2: 19,9% de redução
+  ![ctx stats 2](img/context-mode-ctx-stats-2.png)
+  - /init executado em plan mode
+  - ctx stats prompt 3: 51,3% de redução
+  ![ctx stats 3](img/context-mode-ctx-stats-3.png)
+  - ctx stats prompt 4: 50,8% de redução
+  ![ctx stats 4](img/context-mode-ctx-stats-4.png)
+  - novamente por erro meu o prompt 5 foi executado sem a etapa de planejamento, mas gerado sem erros
+  - ctx stats prompt 5: 50,4% de redução
+  ![ctx stats 5](img/context-mode-ctx-stats-5.png)
+
+- Conclusão:
+  - A princípio parece ter reduzido o consumo de tokens, apesar de mão ter executado o planejamento em dois prompts
   
 
 ## Prompts
